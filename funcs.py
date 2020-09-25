@@ -14,7 +14,7 @@ nowTime = now.strftime("%H:%M:%S")
 
 
 def Clear():
-    def clear(): return os.system("clear")
+    def clear(): return os.system("cls")
     clear()
 
 def loading():
